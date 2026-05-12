@@ -13,6 +13,12 @@ export default function Header() {
         {/* Navigaatio oikealla */}
         <nav className="flex gap-6">
           <Link 
+            to="/" 
+            className="text-sm font-medium text-[var(--sea-ink-soft)] hover:text-[var(--sea-ink)] transition-colors [&.active]:text-[var(--sea-ink)] [&.active]:font-bold"
+          >
+            Homepage
+          </Link>
+          <Link 
             to="/products" 
             className="text-sm font-medium text-[var(--sea-ink-soft)] hover:text-[var(--sea-ink)] transition-colors [&.active]:text-[var(--sea-ink)] [&.active]:font-bold"
           >
