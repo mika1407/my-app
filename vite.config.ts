@@ -16,6 +16,9 @@ const config = defineConfig({
     tanstackStart(),
     viteReact(),
   ],
+  preview: {
+    allowedHosts: ['.onrender.com'],
+  },
 })
 
 export default config
